@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "79315927425",
+    "project_id": "mymouth-82bae",
+    "storage_bucket": "mymouth-82bae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79315927425:android:038245d2daa938cc9da880",
+        "android_client_info": {
+          "package_name": "com.ac.id.umn.mymouth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79315927425-s5g7sdjkqbn2uq5b6nlkfea2lain2c0t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqkScvJSWcMNas0yAWzsbGPafLw5xMCEA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79315927425-s5g7sdjkqbn2uq5b6nlkfea2lain2c0t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameplay_nav"
+    app:startDestination="@id/learnFragment">
+
+    <fragment
+        android:id="@+id/learnFragment"
+        android:name="com.ac.id.umn.mymouth.LearnFragment"
+        android:label="fragment_learn"
+        tools:layout="@layout/fragment_learn" >
+        <action
+            android:id="@+id/action_learnFragment_to_gameplayFragment"
+            app:destination="@id/gameplayFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameplayFragment"
+        android:name="com.ac.id.umn.mymouth.GameplayFragment"
+        android:label="fragment_gameplay"
+        tools:layout="@layout/fragment_gameplay" >
+        <action
+            android:id="@+id/action_gameplayFragment_to_endgameFragment"
+            app:destination="@id/endgameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/endgameFragment"
+        android:name="com.ac.id.umn.mymouth.EndgameFragment"
+        android:label="fragment_endgame"
+        tools:layout="@layout/fragment_endgame" />
+</navigation>
